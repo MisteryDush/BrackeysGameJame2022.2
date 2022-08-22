@@ -59,6 +59,14 @@
     <Compile Include="Assets\Scripts\test.cs" />
     <Compile Include="Assets\Black SP\Scripts\TrapControll.cs" />
     <Compile Include="Assets\Black SP\Scripts\AnimationFList.cs" />
+    <Compile Include="Assets\FurBall2D\Scripts\DestroyCloud.cs" />
+    <Compile Include="Assets\FurBall2D_mobile\Scripts\DestroyCloud_m.cs" />
+    <Compile Include="Assets\FurBall2D_mobile\Scripts\PlayerController_m.cs" />
+    <Compile Include="Assets\FurBall2D\Scripts\CameraController.cs" />
+    <Compile Include="Assets\FurBall2D\Scripts\Instantiation.cs" />
+    <Compile Include="Assets\FurBall2D_mobile\Scripts\CameraController_m.cs" />
+    <Compile Include="Assets\FurBall2D\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\FurBall2D\Scripts\HitVelDetection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LiveShapes\Source\Shaders\LiveShapesGradientAngle.shader" />
@@ -913,6 +921,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{41EDB070-45C9-AA00-9BF2-D820795DF82C}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="LiveShapes.csproj">
       <Project>{0A6D03BB-59B5-CD0B-88F2-3A3162893925}</Project>
       <Name>LiveShapes</Name>
