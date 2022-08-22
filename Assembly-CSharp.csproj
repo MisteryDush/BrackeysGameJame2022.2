@@ -60,11 +60,8 @@
     <Compile Include="Assets\Black SP\Scripts\TrapControll.cs" />
     <Compile Include="Assets\Black SP\Scripts\AnimationFList.cs" />
     <Compile Include="Assets\FurBall2D\Scripts\DestroyCloud.cs" />
-    <Compile Include="Assets\FurBall2D_mobile\Scripts\DestroyCloud_m.cs" />
-    <Compile Include="Assets\FurBall2D_mobile\Scripts\PlayerController_m.cs" />
     <Compile Include="Assets\FurBall2D\Scripts\CameraController.cs" />
     <Compile Include="Assets\FurBall2D\Scripts\Instantiation.cs" />
-    <Compile Include="Assets\FurBall2D_mobile\Scripts\CameraController_m.cs" />
     <Compile Include="Assets\FurBall2D\Scripts\PlayerController.cs" />
     <Compile Include="Assets\FurBall2D\Scripts\HitVelDetection.cs" />
   </ItemGroup>
